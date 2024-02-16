@@ -7,13 +7,13 @@ This project aims to simulate a closed-loop control system featuring a DC motor 
 - **Input-Output Display:** Display current input `u(t)` and output `y(t)` values.
 - **Input Excitations:** Implement different input excitations such as unit step, sinusoid, and square wave.
 
-![image1](Continous-time-System-Simulation/img2.png)
+![image1](img2.png)
 
 
 ## Stability Analysis
 Stability analysis is conducted using the Routh array. The stability condition for the closed-loop system is:
 
-k2 > T1 + T2
+`k2` > `T1` + `T2`
 
 ## Numerical Integration
 Numerical integration is performed using Euler's method (rectangles) to simulate system dynamics.
@@ -32,7 +32,7 @@ Numerical integration is performed using Euler's method (rectangles) to simulate
 - The use of a PI controller ensures relatively easy regulation and calibration of the system.
 - Careful parameter selection is crucial for achieving fast and stable system responses.
 
- ![image1](Continous-time-System-Simulation/img1.png)
+ ![image1](img1.png)
 
 ## Note
 - Make sure to satisfy the stability condition (`k2 > T1 + T2`) before proceeding with simulations.
